@@ -1,0 +1,138 @@
+@font-face{
+    font-family: mainFont2;
+    src : url(../fonts/Alternate_Gothic/AlternateGotNo2D.ttf);
+}
+:root{
+    --text-primary: #50648f;
+    --text-secondary : #3b4c6b;
+    --text-blue:#1f80ec;
+    --text-red : #fc655a;
+
+}
+body{
+    padding-top: 70px;
+}
+.log{
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+
+}
+.nav-link{
+    font-family: 'Heebo', sans-serif;
+    margin-left:30px ;
+    font-size: 20px;
+    color: var(--text-secondary);
+}
+.nav-link:hover{
+    color:var(--text-blue) ;
+}
+.head-img{
+    width: 30px;
+}
+.logo-num{
+    color: gray;
+    letter-spacing: 1px;
+
+}
+.main{
+    background-image: url("../imgs/shape-a.png");
+    background-size: cover;
+    
+}
+
+.text-left{
+    margin-top: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 90px;
+    color: var(--text-primary);
+   
+
+}
+.text-right{
+    color: #fc655a;
+    font-size: 31px;
+    font-family: 'Heebo', sans-serif;   
+}
+.text-down{
+    font-family: 'Heebo', sans-serif;
+    color: var(--text-primary);
+}
+.button{
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    color: #50648f;
+}
+.numbers{
+    font-weight: bold;
+    font-size: 25px;
+    color: #3b4c6b;
+}
+.last-update{
+    color: var(--text-primary);
+    opacity: 0.9;
+    font-style: italic;
+}
+/* end main section */
+ .graph{
+    font-size: 25px;
+    font-weight: bold;
+}
+.mainCaption{
+    font-family: 'Heebo', sans-serif;
+    font-size: 42px;
+    color: #50648f;
+}
+ .caption{
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: #50648f;
+}
+.head-group{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.group-item:hover   {
+    color: white !important;
+    background-color: #3b4c6b;
+}
+.group-item:hover a  {
+    color: white !important;
+    
+}
+.sesction1{
+    background-color: #F7F9FD;
+}
+.pOfsesction1{
+    border: solid 1px transparent;
+    margin-top: 30px;
+    color: var(--text-blue);
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+.h1ofh1ofse{
+    font-family: 'Heebo', sans-serif;
+}
+.ph{
+    font-size: 17px;
+}
+.symptom{
+    width: 25%;
+}
+.im{
+    margin-top: -20%;
+    margin-right: -5%;
+} 
+.advice{
+    background-color:#F7F9FD ;
+}
+ .hadvice{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+} 
